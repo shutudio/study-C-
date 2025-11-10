@@ -1,9 +1,9 @@
 /*    
-    1call_by_value_exam.cpp
+    call_by_value_exam.cpp
     목적: "값에 의한 호출(call by value)"의 문제점(원본 변경 불가)과
     매개변수에 대해 '일반 생성자'가 아니라 '복사 생성자''가 호출된다는 점을 시연
-    빌드: g++ -std=c++14 -o 1call_by_value_exam.cpp
-    실행: ./1call_by_value_exam
+    빌드: g++ -std=c++14 -o call_by_value_exam.cpp
+    실행: ./call_by_value_exam
 
     핵심 포인트
     - increase(Circle c)에서 c는 '값에 의한 복사'로 생성된다.
